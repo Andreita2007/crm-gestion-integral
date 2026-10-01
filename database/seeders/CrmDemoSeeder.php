@@ -10,7 +10,7 @@ class CrmDemoSeeder extends Seeder
 {
     // 1. Crear 3 asesores
     $asesores = [];
-    foreach (['Ana Rodríguez', 'Carlos Pérez', 'María González'] as $name) {
+    foreach (['Andrea Peña', 'Carlos Pérez', 'María González'] as $name) {
     $asesores[] = [
         'name' => $name,
         'email' => strtolower(str_replace(' ', '.', $name)) . '@crm.com',
